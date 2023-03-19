@@ -1,0 +1,28 @@
+logs:
+  - name: root
+    level: debug
+    formatter: '%d{%Y-%m-%d %H:%M:%S}%T%m%n'
+    appenders:
+      - type: FileLogAppender
+        file: '../log/root.log'
+        formatter: '%d{%Y-%m-%d %H:%M:%S}%T%t%T%F%T[%p]%T[%c]%T%f:%l%T%m%n'
+      - type: StdoutLogAppender
+        formatter: '%d{%Y-%m-%d %H:%M:%S}%T%t%T%m%n'
+  - name: system
+    level: debug
+    formatter: '%d{%Y-%m-%d %H:%M:%S}%T%m%n'
+    appenders:
+      - type: FileLogAppender
+        file: '../log/system.log'
+        formatter: '%d{%Y-%m-%d %H:%M:%S}%T%t%T%F%T[%p]%T[%c]%T%f:%l%T%m%n'
+      - type: StdoutLogAppender
+        formatter: '%d{%Y-%m-%d %H:%M:%S}%T%t%T%m%n'
+  - name: shio
+    level: debug
+    formatter: '%d{%Y-%m-%d %H:%M:%S}%T%m%n'
+    appenders:
+      - type: FileLogAppender
+        file: '../log/shio.log'
+        formatter: '%d{%Y-%m-%d %H:%M:%S}%T%t%T%F%T[%p]%T[%c]%T%f:%l%T%m%n'
+      - type: StdoutLogAppender
+        formatter: '%d{%Y-%m-%d %H:%M:%S}%T%t%T%m%n'
