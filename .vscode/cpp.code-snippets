@@ -1,0 +1,52 @@
+{
+    "if": {
+        "prefix": "if",
+        "body": [
+            "if ($condition)",
+            "{",
+            "\t$statements;",
+            "}"
+        ]
+    },
+    "while": {
+        "prefix": "while",
+        "body": [
+            "while ($condition)",
+            "{",
+            "\t$statements;",
+            "}"
+        ]
+    },
+    "for expression": {
+        "prefix": "for",
+        "body": [
+            "for ($init; $condition; $expression)",
+            "{",
+            "\t$statements;",
+            "}"
+        ]
+    },
+    "for range": {
+        "prefix": "for",
+        "body": [
+            "for ($range-declaration : $range-expression)",
+            "{",
+            "\t$statements;",
+            "}"
+        ]
+    },
+    "class": {
+        "prefix": "class",
+        "body": [
+            "class $name",
+            "{",
+            "private:",
+            "\t$privateMember",
+            "",
+            "public:",
+            "\t$publicMember",
+            "",
+            "};"
+        ]
+    },
+}
