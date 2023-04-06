@@ -49,4 +49,32 @@
             "};"
         ]
     },
+    "function": {
+        "prefix": "function",
+        "body": [
+            "$ReturnType $FunctionName()",
+            "{",
+            "\t$expression;",
+            "}"
+        ]
+    },
+    "function by parameter": {
+        "prefix": "function by parameter",
+        "body": [
+            "$ReturnType $FunctionName($parameter)",
+            "{",
+            "\t$expression;",
+            "}"
+        ]
+    },
+    "main function": {
+        "prefix": "psvm",
+        "body": [
+            "int main(int argc, char *argv[])",
+            "{",
+            "\t$expression;",
+            "\treturn 0;",
+            "}"
+        ]
+    }
 }

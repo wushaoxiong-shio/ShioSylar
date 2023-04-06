@@ -1,9 +1,9 @@
-#include "logger.h"
 #include "config.h"
-#include "thread.h"
-#include "macro.h"
 #include "fiber.h"
+#include "logger.h"
+#include "macro.h"
 #include "scheduler.h"
+#include "thread.h"
 
 class loged
 {
@@ -17,10 +17,3 @@ public:
 loged logs;
 
 shiosylar::Logger::ptr g_logger = LOG_NAME("shio");
-
-
-int main(int argc, char* argv[])
-{
-    LOG_DEBUG(g_logger) << "test";
-    return 0;
-}

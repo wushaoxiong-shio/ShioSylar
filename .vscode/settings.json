@@ -8,6 +8,7 @@
     "editor.bracketPairColorization.enabled": false,
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
+    "editor.snippetSuggestions": "top",
     "terminal.integrated.fontWeightBold": "normal",
     "C_Cpp.intelliSenseEngine": "disabled",
     "C_Cpp.autocomplete": "disabled",
@@ -158,5 +159,5 @@
                 }
             ]
         }
-    },
+    }
 }
