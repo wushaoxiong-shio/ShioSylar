@@ -3,7 +3,7 @@
     "workbench.colorTheme": "One Dark Pro",
     "files.autoSave": "onFocusChange",
     "diffEditor.ignoreTrimWhitespace": false,
-    "editor.fontSize": 16,
+    "editor.fontSize": 14,
     "editor.detectIndentation": false,
     "editor.bracketPairColorization.enabled": false,
     "editor.formatOnSave": true,
@@ -37,31 +37,11 @@
     ],
     "editor.tokenColorCustomizations": {
         "[One Dark Pro]": {
+            "comments": "#56A6AE",
             "keywords": {
                 "fontStyle": "italic"
             },
             "textMateRules": [
-                {
-                    "scope": "punctuation.definition.comment",
-                    "settings": {
-                        "foreground": "#56A6AE",
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": "comment.line.double-slash",
-                    "settings": {
-                        "foreground": "#56A6AE",
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": "comment.block.cpp",
-                    "settings": {
-                        "foreground": "#56A6AE",
-                        "fontStyle": ""
-                    }
-                },
                 {
                     "scope": "keyword.operator.bitwise.shift.cpp",
                     "settings": {
@@ -69,89 +49,113 @@
                     }
                 },
                 {
-                    "scope": "keyword.operator.comparison.cpp",
+                    "scope": "keyword.operator.assignment.cpp",
                     "settings": {
-                        "foreground": "#ABB2BF",
-                        "fontStyle": ""
+                        "foreground": "#ABB2BF"
                     }
                 },
                 {
-                    "scope": "keyword.operator.bitwise",
+                    "scope": "keyword.operator.bitwise.cpp",
                     "settings": {
-                        "foreground": "#ABB2BF",
-                        "fontStyle": ""
+                        "foreground": "#ABB2BF"
                     }
                 },
                 {
                     "scope": "storage.modifier.reference.cpp",
                     "settings": {
-                        "foreground": "#ABB2BF",
-                        "fontStyle": ""
+                        "foreground": "#ABB2BF"
                     }
                 },
                 {
-                    "scope": "keyword.operator.assignment.cpp",
+                    "scope": "keyword.operator.arithmetic.cpp",
                     "settings": {
-                        "foreground": "#ABB2BF",
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": "keyword.operator.arithmetic",
-                    "settings": {
-                        "foreground": "#ABB2BF",
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": "variable.other.readwrite.cpp",
-                    "settings": {
-                        "foreground": "#ABB2BF",
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": "meta.function.definition.cpp",
-                    "settings": {
-                        "foreground": "#ABB2BF",
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": "keyword.operator.logical",
-                    "settings": {
-                        "foreground": "#ABB2BF",
-                        "fontStyle": ""
+                        "foreground": "#ABB2BF"
                     }
                 },
                 {
                     "scope": "keyword.operator.increment.cpp",
                     "settings": {
-                        "foreground": "#ABB2BF",
-                        "fontStyle": ""
+                        "foreground": "#ABB2BF"
                     }
                 },
                 {
-                    "scope": "keyword.operator.assignment.compound",
+                    "scope": "keyword.operator.ternary.cpp",
                     "settings": {
-                        "foreground": "#ABB2BF",
-                        "fontStyle": ""
+                        "foreground": "#ABB2BF"
                     }
                 },
                 {
-                    "scope": "keyword.operator.decrement.cpp",
+                    "scope": "meta.preprocessor.macro.cpp",
                     "settings": {
-                        "foreground": "#ABB2BF",
-                        "fontStyle": ""
+                        "foreground": "#ABB2BF"
+                    }
+                },
+                {
+                    "scope": "support.function.cpp",
+                    "settings": {
+                        "foreground": "#61afef"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.comparison.cpp",
+                    "settings": {
+                        "foreground": "#ABB2BF"
+                    }
+                },
+                {
+                    "scope": "entity.name.function.definition.special.member.destructor.cpp",
+                    "settings": {
+                        "foreground": "#ABB2BF"
+                    }
+                },
+                {
+                    "scope": "storage.modifier.pointer.cpp",
+                    "settings": {
+                        "foreground": "#ABB2BF"
                     }
                 },
                 {
                     "scope": "variable.parameter.cpp",
                     "settings": {
-                        "foreground": "#ABB2BF",
-                        "fontStyle": ""
+                        "foreground": "#D19A66"
                     }
                 },
+                {
+                    "scope": "variable.other.readwrite.cpp",
+                    "settings": {
+                        "foreground": "#ABB2BF"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.decrement.cpp",
+                    "settings": {
+                        "foreground": "#ABB2BF"
+                    }
+                },
+                {
+                    "scope": "entity.name.namespace.cpp",
+                    "settings": {
+                        "foreground": "#ABB2BF"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.assignment.compound.bitwise.cpp",
+                    "settings": {
+                        "foreground": "#ABB2BF"
+                    }
+                },
+                {
+                    "scope": "constant.character.escape.line-continuation.cpp",
+                    "settings": {
+                        "foreground": "#ABB2BF"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.logical.cpp",
+                    "settings": {
+                        "foreground": "#C678DD"
+                    }
+                }
             ]
         }
     },
