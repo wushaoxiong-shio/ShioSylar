@@ -3,7 +3,7 @@
     "workbench.colorTheme": "One Dark Pro",
     "files.autoSave": "onFocusChange",
     "diffEditor.ignoreTrimWhitespace": false,
-    "editor.fontSize": 14,
+    "editor.fontSize": 16,
     "editor.detectIndentation": false,
     "editor.bracketPairColorization.enabled": false,
     "editor.formatOnSave": true,
@@ -15,7 +15,7 @@
     "C_Cpp.errorSquiggles": "disabled",
     "cmake.configureOnEdit": false,
     "cmake.configureOnOpen": false,
-    "cmake.parallelJobs": 16,
+    "cmake.parallelJobs": 8,
     "clangd.arguments": [
         "--compile-commands-dir=${workspaceFolder}/build",
         "--background-index",
@@ -27,7 +27,7 @@
         "--fallback-style=Microsoft",
         "--header-insertion=iwyu",
         "--header-insertion-decorators",
-        "-j=12",
+        "-j=6",
         "--malloc-trim",
         "--pch-storage=memory",
         "--pretty"
