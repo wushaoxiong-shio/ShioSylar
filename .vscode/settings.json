@@ -9,6 +9,7 @@
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.snippetSuggestions": "top",
+    "editor.foldingStrategy": "indentation",
     "terminal.integrated.fontWeightBold": "normal",
     "C_Cpp.intelliSenseEngine": "disabled",
     "C_Cpp.autocomplete": "disabled",

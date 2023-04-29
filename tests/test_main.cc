@@ -17,3 +17,11 @@ public:
 loged logs;
 
 shiosylar::Logger::ptr g_logger = LOG_NAME("shio");
+
+int main(int argc, char *argv[])
+{
+    int a = 1;
+    LOG_INFO(g_logger) << "shio test";
+    LOG_FMT_INFO(g_logger, "%d--%s", a, "sl");
+    return 0;
+}
